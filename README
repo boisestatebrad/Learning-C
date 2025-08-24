@@ -39,4 +39,8 @@ make run DIR=exercises/kr/1-10
 
 * The C Programming Language (K&R)
 * SEI CERT C guidelines
+<<<<<<< HEAD
 * Embedded Artistry blog
+=======
+* Embedded Artistry blog
+>>>>>>> 28b007b94b886ec1b0177cbe0b388659dac8c8d1
