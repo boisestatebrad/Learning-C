@@ -1,19 +1,17 @@
-
 # C Learning – Practice and Mini-Projects
 
-A repo for learning and practicing **C**: exercises, utilities, and embedded-friendly patterns. My goal is to create a solid foundation so later on I can work on embedded systems using **C/C++**.
+A repo for learning and practicing **C**: exercises, utilities, and embedded-friendly patterns.  
+My goal is to create a solid foundation so later on I can work on embedded systems using **C/C++**.
 
 ## Structure
 
-```
-exercises/   # K&R Book + misc practice
-projects/    # Small tools & embedded-prep code
-tests/       # Unit tests
-docs/        # Notes & cheatsheets
-```
+exercises/ # K&R + misc practice
+projects/ # Small tools & embedded-prep code
+tests/ # Unit tests
+docs/ # Notes & cheatsheets
+
 
 ## Getting Started
-
 * Compiler: **GCC** or **Clang**
 * Build: `make` (or plain `gcc -Wall -Wextra -std=c17 ...`)
 * Format: `clang-format -i *.c *.h`
@@ -21,31 +19,29 @@ docs/        # Notes & cheatsheets
 ```bash
 # Build & run example
 make run DIR=exercises/kr/1-10
-```
 
-## Goals
+Goals
 
-* Work through K\&R exercises
-* Practice file I/O, strings, and algorithms
-* Build portable code for future embedded projects
+    Work through K&R exercises
 
-## Progress
+    Practice file I/O, strings, and algorithms
 
-* [ ] K\&R Ch. 1–2
-* [ ] String functions (`strlen`, `strcpy`, etc.)
-* [ ] Word count (`wc`), grep-lite
-* [ ] Ring buffer, fixed-point math
+    Build portable code for future embedded projects
 
-## Resources
+Progress
 
-* *The C Programming Language* (K\&R)
-* SEI CERT C guidelines
-* Embedded Artistry blog
+K&R Ch. 1–2
 
-## License
+String functions (strlen, strcpy, etc.)
 
-MIT – see LICENSE
+Word count (wc), grep-lite
 
----
+    Ring buffer, fixed-point math
 
-Would you like me to also add a **“sample first program” section** (like `hello.c`) so anyone cloning your repo sees an immediate working example?
+Resources
+
+    The C Programming Language (K&R)
+
+    SEI CERT C guidelines
+
+    Embedded Artistry blog
