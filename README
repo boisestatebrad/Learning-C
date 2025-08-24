@@ -4,12 +4,10 @@ A repo for learning and practicing **C**: exercises, utilities, and embedded-fri
 My goal is to create a solid foundation so later on I can work on embedded systems using **C/C++**.
 
 ## Structure
-
 exercises/ # K&R + misc practice
 projects/ # Small tools & embedded-prep code
 tests/ # Unit tests
 docs/ # Notes & cheatsheets
-
 
 ## Getting Started
 * Compiler: **GCC** or **Clang**
@@ -22,26 +20,10 @@ make run DIR=exercises/kr/1-10
 
 Goals
 
-    Work through K&R exercises
+Work through K&R exercises
 
-    Practice file I/O, strings, and algorithms
+Practice file I/O, strings, and algorithms
 
-    Build portable code for future embedded projects
+Build portable code for future embedded projects
 
 Progress
-
-K&R Ch. 1–2
-
-String functions (strlen, strcpy, etc.)
-
-Word count (wc), grep-lite
-
-    Ring buffer, fixed-point math
-
-Resources
-
-    The C Programming Language (K&R)
-
-    SEI CERT C guidelines
-
-    Embedded Artistry blog
